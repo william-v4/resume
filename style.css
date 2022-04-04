@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url(Comfortaa.ttf);
+}
+@font-face {
+    font-family: Ubuntu;
+    src: url(Ubuntu-Regular.ttf);
+}
+html {
+    background-image: url('mcrtx6.jpeg');
+    max-width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body {
+    max-width: 100%;
+}
+h1 {
+    font-family: Comfortaa;
+    font-size: 24pt;
+}
+p {
+    font-family: Ubuntu;
+    font-size: 14pt;
+    color: white;
+}
+.name {
+    font-size: 32pt;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.main {
+    margin-left: 20%;
+    margin-top: 4%;
+    max-width: 100%;
+    margin-right: 10%;
+}
+.left-sidebar {
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.address-tile {
+    margin-top: 10%;
+    opacity: 0.9;
+    border-radius: 16px;
+}
+.title-tile {
+    margin-top: 4%;
+    margin-left: 4%;
+    max-width: 60%;
+    opacity: 0.9;
+    border-radius: 32px;
+}
+.textlink {
+    color: white;
+}
