@@ -6,11 +6,10 @@ jobs:
       - image: cimg/base:2021.04
     resource_class: small
     steps: 
-      - run: 
-        - checkout
-        - git clone https://github.com/william-exe-v4/williamv4org-about.git
-        - rm -rf ./williamv4org-about/resume.html
-        - mv index.html ./williamv4org-about/resume.html
-        - git commit -m "resume update"
-        - cd williamv4org-about
-        - git push https://william-exe-v4-circleci:$amogus@github.com/william-exe-v4/williamv4org-about.git
+      - checkout
+      - run: git clone https://github.com/william-exe-v4/williamv4org-about.git
+      - run: rm -rf ./williamv4org-about/resume.html
+      - run: mv index.html ./williamv4org-about/resume.html
+      - run: git commit -m "resume update"
+      - run: cd williamv4org-about
+      - run: git push https://william-exe-v4-circleci:$amogus@github.com/william-exe-v4/williamv4org-about.git
