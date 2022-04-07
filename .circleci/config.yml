@@ -1,15 +1,16 @@
 version: 2.1
 jobs: 
   deploy: 
+    context: keys
     docker: 
       - image: cimg/base:2021.04
     resource_class: small
     steps: 
-    - run: 
-      - checkout
-      - git clone https://github.com/william-exe-v4/williamv4org-about.git
-      - rm -rf ./williamv4org-about/resume.html
-      - mv index.html ./williamv4org-about/resume.html
-      - git commit -m "resume update"
-      - cd williamv4org-about
-      - git push https://william-exe-v4-circleci:$amogus@github.com/william-exe-v4/williamv4org-about.git
+      - run: 
+        - checkout
+        - git clone https://github.com/william-exe-v4/williamv4org-about.git
+        - rm -rf ./williamv4org-about/resume.html
+        - mv index.html ./williamv4org-about/resume.html
+        - git commit -m "resume update"
+        - cd williamv4org-about
+        - git push https://william-exe-v4-circleci:$amogus@github.com/william-exe-v4/williamv4org-about.git
