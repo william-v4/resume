@@ -1,7 +1,12 @@
 version: 2.1
+workflows: 
+  deploy: 
+    jobs: 
+      - deploy: 
+        context: keys
+
 jobs: 
-  sus: 
-    context: keys
+  deploy: 
     docker: 
       - image: cimg/base:2021.04
     resource_class: small
