@@ -54,3 +54,19 @@ p {
 .textlink {
     color: white;
 }
+.stats {
+    margin: 8%;
+}
+.generic {
+    border-radius: 32px;
+}
+ul {
+    list-style-type: circle;
+    margin-left: 20px;
+    font-family: Ubuntu;
+    font-size: 14pt;
+}
+h2 {
+    font-family: Comfortaa;
+    font-size: 18pt;
+}
