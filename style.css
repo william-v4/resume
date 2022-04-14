@@ -14,6 +14,16 @@ html {
 }
 body {
     max-width: 100%;
+    animation-duration: 1s;
+}
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1.0;}
+}
+@keyframes slide {
+    0% {top: -300px; margin-right: 100%; opacity: 0;}
+    50% {top: 0%; margin-right: 100%; opacity: 1.0;}
+    100% {margin-right: 0%;}
 }
 h1 {
     font-family: Comfortaa;
@@ -38,6 +48,8 @@ p {
 .left-sidebar {
     margin-top: 4%;
     margin-left: 10%;
+    animation-duration: 1s;
+    position: relative;
 }
 .address-tile {
     margin-top: 10%;
