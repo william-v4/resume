@@ -6,6 +6,10 @@
     font-family: Ubuntu;
     src: url(Ubuntu-Regular.ttf);
 }
+@font-face {
+    font-family: Ubuntulight;
+    src: url(Ubuntu-Light.ttf);
+}
 html {
     background-image: url('mcrtx6.jpeg');
     max-width: 100%;
@@ -28,6 +32,7 @@ body {
 h1 {
     font-family: Comfortaa;
     font-size: 24pt;
+    color: white;
 }
 p {
     font-family: Ubuntu;
@@ -60,7 +65,7 @@ p {
     margin-top: 4%;
     margin-left: 4%;
     max-width: 60%;
-    opacity: 0.9;
+    background-color: rgba(0, 209, 178, 0.75);
     border-radius: 32px;
 }
 .textlink {
@@ -81,4 +86,11 @@ ul {
 h2 {
     font-family: Comfortaa;
     font-size: 18pt;
+    color: white;
+}
+.content-tile {
+    background-color: rgba(62, 142, 208, 0.8);
+}
+a {
+    color: white;
 }
