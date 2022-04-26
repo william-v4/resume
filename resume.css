@@ -10,6 +10,10 @@
     font-family: Ubuntulight;
     src: url(Ubuntu-Light.ttf);
 }
+@font-face {
+    font-family: ComfortaaBold;
+    src: url(Comfortaa-Bold.ttf);
+}
 html {
     background-image: url('mcrtx6.jpeg');
     max-width: 100%;
@@ -89,5 +93,10 @@ h2 {
     background-color: rgba(62, 142, 208, 0.8);
 }
 a {
+    color: white;
+}
+h3 {
+    font-family: ComfortaaBold;
+    font-size: 14pt;
     color: white;
 }
